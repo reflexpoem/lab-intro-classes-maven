@@ -1,14 +1,14 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BigFraction;
-
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BigFraction;
 
 /**
  * A simple experiment using fractions.
  *
  * @author Samuel A. Rebelsky.
- * @author YOUR NAME HERE
+ * @author Harrison Zhu, Sunjae Kim
  */
 public class BFExperiment {
   /**
@@ -29,6 +29,12 @@ public class BFExperiment {
     pen.println("First fraction: " + f1);
     pen.println("Second fraction: " + f2);
     pen.println("Sum: " + (f1.add(f2)));
+    pen.println("Product: " + (f1.multiply(f2)));
+    pen.println("fractional "+ (f1.fractional()));
+    BigFraction f3;
+    f3 = new BigFraction("123/456");
+    pen.println("Fraction from string: " + f3);
+
     pen.close();
   } // main(String[])
 } // class BFExperiment

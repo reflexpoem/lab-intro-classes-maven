@@ -1,14 +1,14 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BigFraction;
-
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BigFraction;
 
 /**
  * Sum all the fractions provided on the command line.
  *
  * @author Samuel A. Rebelsky.
- * @author YOUR NAME HERE
+ * @author Harrison Zhu, Sunjae Kim
  */
 public class BFSum {
   /**
